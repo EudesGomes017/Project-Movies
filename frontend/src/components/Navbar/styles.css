@@ -1,0 +1,60 @@
+header {
+    background-color: var(--color-primary);
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.container {
+    margin-left: 10px;
+    max-width: 1900px;
+}
+
+.dsmovie-nav-content > h1 {
+    margin-left: 0px;
+}
+
+.dsmovie-nav-content  {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0; /* Remover margem padrão do h1 */
+    text-align: left; /* Alinhar o texto à esquerda */
+}
+
+.dsmovie-nav-content > h1 {
+
+} 
+
+.dsmovie-contact-container {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+   
+}
+
+h1 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    
+  
+}
+
+.dsmovie-contact-container > p {
+    display: flex;
+    position: relative;
+    margin: 0 0 0 10px;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 12px;
+  }
