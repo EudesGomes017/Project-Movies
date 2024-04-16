@@ -18,7 +18,7 @@ O Projeto DLEA Moviw FullStack é uma  site que ira te proporcionar uma lista de
 ## Tecnologias utilizadas Backend
 -Spring boot
 -Spring Data / JPA
--Java
+-Spring security
 -Docker
 -Deployee Raiwail
 -Postgresql
