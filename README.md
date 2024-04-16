@@ -2,7 +2,7 @@
 
 O Projeto DLEA Moviw FullStack é uma  site que ira te proporcionar uma lista de filmes, podera informar sua avaliação e deixar seu comentário !
 
- <img src="./assets/img/movie.gif" alt="git da tela inicial do projeto">
+ <img src="/assets/img/movie.gif" alt="git da tela inicial do projeto">
 
 
 
