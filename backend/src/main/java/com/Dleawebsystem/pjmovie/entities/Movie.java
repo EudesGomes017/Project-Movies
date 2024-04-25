@@ -1,11 +1,14 @@
 package com.Dleawebsystem.pjmovie.entities;
 
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -19,6 +22,9 @@ public class Movie {
 	private Double score;
 	private Integer count;
 	private String image;
+
+	@OneToMany(mappedBy = "id.movie")
+	private Set<Score> scores = new HashSet<>();
 
 	public Movie() {
 
@@ -71,6 +77,10 @@ public class Movie {
 
 	public void setImage(String image) {
 		this.image = image;
+	}
+
+	public Set<Score> getScores() {
+		return scores;
 	}
 
 	@Override

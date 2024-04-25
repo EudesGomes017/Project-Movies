@@ -24,6 +24,13 @@ public class Score {
 		this.avalicao = avalicao;
 	}
 
+	public Score(Movie movie, User user) {
+
+		id.setMovie(movie);
+		id.setUser(user);
+
+	}
+
 	public Double getAvalicao() {
 		return avalicao;
 	}
