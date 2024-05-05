@@ -43,9 +43,13 @@ Executar algo na instanciação ou destruição do componente, observar estado *
     axios.get(`${BASE_URL}/movies?size=12&page=0`).then((response) => {
     console.log(response.data);*/
 
+    const habdlePageChabge = (newPagenumber : number) => {
+      setPageNumber(newPagenumber);
+    }
+
   return (
     <>
-      <Pagination />
+      <Pagination page={page } onChange={habdlePageChabge} />
 
       <div className="container">
         <div className="row">
